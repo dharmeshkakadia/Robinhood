@@ -1,5 +1,19 @@
 # Robinhood_Trader
 
+This fork adds the functionality to use this as a package/library you can install with pip/poetry.
+
+To use with poetry, run:
+
+``
+poetry add git+https://github.com/dharmeshkakadia/Robinhood
+``
+
+To use with poetry, run:
+
+``
+pip install git+https://github.com/dharmeshkakadia/Robinhood
+``
+
 -------------------
 This project was originally a fork of Jamonk's Unoffical Robinhood Api. 
 However this project is considered to be a seperate project
