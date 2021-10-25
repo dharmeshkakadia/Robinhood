@@ -444,7 +444,7 @@ class Trader:
         instrument = self.instrument(symbol)
 
         if not (is_trailing_stop and side == 'sell') and not price:
-            price = self._fprice(self.quote(instrument['symbol']).last_trade_price)
+            price = self._fprice(self.quote(instrument['symbol']).mark)
 
         payload = {
             "account": self.account()["url"],
